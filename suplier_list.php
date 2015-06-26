@@ -87,14 +87,14 @@ body{
 
 <table cellpadding="5" cellspacing="0" border="1">
 	<tr bgcolor="#cccccc">
-	<th colspan="5"><font size="6">DATA SUPLIER ACER COLECTION</font></th>
+	<th colspan="6"><font size="6">DATA SUPLIER ACER COLECTION</font></th>
 	</tr>
 <tr bgcolor="red">
 	<th>ID SUPLIER</th>
 	<th>NAMA SUPLIER</th>
 	<th>ALAMAT</th>
 	<th>Nohp/Telp</th>
-	<th colspan="1">action</th>
+	<th colspan="2">action</th>
 	</tr>
 	</center>
 
@@ -113,6 +113,7 @@ body{
 			<td><?php echo $no_hp ?></td>
 			<?php	
 				echo "<td><a href='suplier_delete.php?id_suplier=$row[id_suplier]'>Delete</a></td>";
+				echo "<td><a href='suplier_edit.php?id_suplier=$row[id_suplier]'>Edit</a></td>";
 				?>
 			</tr>
 		<?php
@@ -120,7 +121,7 @@ body{
 	?>
 </table>
 <br/>
-<p align="center"><a href="suplier_insert.php"><img src="add_user.png" width="100px" align="center"><br/>Tambah Data Suplier</a></p>
+<p align="center"><a href="suplier_insert.php"><img src="DB/add_user.png" width="100px" align="center"><br/>Tambah Data Suplier</a></p>
 </div>
 <footer>
         <center><p>Kelompok ACER &copy; 2015</p></center>

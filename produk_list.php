@@ -123,7 +123,7 @@ body{
 	?>
 </table>
 <br/>
-<p align="center"><a href="produk_insert.php"><img src="produk.jpg" width="100px" align="center"><br/>Tambah Produk</a></p>
+<p align="center"><a href="produk_insert.php"><img src="DB/produk.jpg" width="100px" align="center"><br/>Tambah Produk</a></p>
 </div>
 <footer>
         <center><p>Kelompok ACER (anak cerdas) &copy; 2015</p></center>

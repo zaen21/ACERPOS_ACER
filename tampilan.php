@@ -105,20 +105,22 @@ body{
 
 	<div class="container">
 	       <div class="hero-unit">
-									<center><h1><marquee scrollamount="15">Selamat Datang Online POS ACER</marquee></h1><br/>
-										<p><img src="batas.gif" width="100%" class="img-rounded" height="100"></p>
+									<center><h1><marquee title="Selamat Datang Di acer pos" scrollamount="10">Selamat Datang Di Online POS ACER</marquee></h1><br/>
+										<p><img src="DB/batas.gif" width="100%" class="img-rounded" height="100"></p>
 										<hr>
 												
 
 										<div class="table-inverse">
 						<ul class="table-inverse">
 											<ul class="nav nav-table">
-											<center><h2>Daftar Nama Kelompok</h2></center>
-											<hr>
+											<marquee direction="up" scrolldelay="150"><center><h2>Daftar Nama Kelompok</h2>
+											
 											<li><h4><a href="#">Ahmad Jaelani &copy; 1410651184</a></h4></li>
 											<li><h4><a href="#">Anas Abdillah .M &copy; 1410651182</a></h4></li>
 											<li><h4><a href="#">Alin Janahiq &copy; 1410651153</a></h4></li>
 											<li><h4><a href="#">Adi Primadani &copy; 1410651016</a></h4></li>
+											</center>
+											</marquee>
 											</ul>
 
 								<hr>

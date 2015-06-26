@@ -78,17 +78,17 @@ body{
 		</div>
 <hr>
       <footer>
-        <center><p>Kelompok ACER (anak cerdas) &copy; 2015</p></center>
+        <center><p>Kelompok ACER &copy; 2015</p></center>
       </footer>
 
 	<div class="hero-unit">
 
-<center><h3>ACER (Anak Cerdas)</h3>
+<center><h3>ACER POS</h3>
 
 <div>
 <table cellpadding="5" cellspacing="0" border="1">
 	<tr bgcolor="#cccccc">
-	<th colspan="9"><font size="5">DATA ANGGOTA ONLINE POS ACER COLECTION</font></th>
+	<th colspan="10"><font size="5">DATA ANGGOTA ONLINE POS ACER COLECTION</font></th>
 	</tr>
 <tr bgcolor="red">
 	<th>No</th>
@@ -97,7 +97,7 @@ body{
 	<th>No.Hp</th>
 	<th>Email</th>
 	<th>Level</th>
-	<th colspan="1">action</th>
+	<th colspan="2">action</th>
 	</tr>
 	</center>
 
@@ -118,6 +118,7 @@ body{
 			<td><?php echo $level ?></td>
 			<?php	
 				echo "<td><a href='anggota_acer_delete.php?id_user=$row[id_user]'>Delete</a></td>";
+				echo "<td><a href='anggota_acer_edit.php?id_user=$row[id_user]'>Edit</a></td>";
 				?>
 			</tr>
 		<?php
@@ -126,7 +127,7 @@ body{
 </table>
 </div>
 <br/>
-<p align="center"><a href="pendaftaran.php"><img src="add_user.png" width="100px" align="center"><br/>Tambah User</a></p>
+<p align="center"><a href="pendaftaran.php"><img src="DB/add_user.png" width="100px" align="center"><br/>Tambah User</a></p>
 </div>
 <footer>
         <center><p>Kelompok ACER (anak cerdas) &copy; 2015</p></center>

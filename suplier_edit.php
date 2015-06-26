@@ -18,17 +18,37 @@ $id_suplier=$_GET['id_suplier'];
 			echo '<center><h2><font color="red">data tidak ditemukan.</center></h2></font>';
 		}else{
 	?>
-	<h3>FORM EDIT SUPLIER</h3>
+	<center><h3>FORM EDIT SUPLIER</h3>
 		<table>
 			<tr>
 				<td>ID SUPLIER</td>
 				<td>:</td>
-				<td><input type="number" name="id_suplier" value="<?php echo $row['id_suplier']; ?>" size="50"/></td>
+				<td><input type="number" name="id_suplier" disabled value="<?php echo $row['id_suplier']; ?>" size="50"/></td>
 			</tr>
 			<tr>
-				<td colspan=3 align="center"><input type="submit" name="submit"/></td>
+			<tr>
+				<td>NAMA Suplier</td>
+				<td> : </td>
+				<td><input type="text" name="nama" value="<?php echo $row['nama_suplier']; ?>" size="50"/></td>
 			</tr>
-		</table>	
+			<tr>
+				<td>Alamat</td>
+				<td> : </td>
+				<td><input type="text" name="level" value="<?php echo $row['alamat']; ?>" size="50"/></td>
+			</tr>
+			<tr>
+			<tr>
+				<td>No.Hp</td>
+				<td> : </td>
+				<td><input type="text" name="level" value="<?php echo $row['no_hp']; ?>" size="50"/></td>
+			</tr>
+			<tr>
+				<td colspan=3 align="center"><input type="submit" name="submit"/>
+				<input type="button" value="cancel" onclick="window.location='suplier_list.php'"></td>
+				</tr>
+		</tr>
+		</table>
+		</center>	
 	</form>
 	<?php
 		}

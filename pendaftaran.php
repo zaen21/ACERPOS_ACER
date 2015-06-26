@@ -54,6 +54,7 @@
 	  <div class="control-group">
 	  	<div class="controls">
 	  		<button type="submit" class="btn bt-info" name="submit">Submit</button>
+	  		<input type="button" class="btn" value="cancel" onclick="window.location='data_anggota_acer.php'">
 	  	</div>
 	  </div>
 	  </form>

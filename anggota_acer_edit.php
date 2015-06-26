@@ -18,17 +18,31 @@ $id_user=$_GET['id_user'];
 			echo '<center><h2><font color="red">data tidak ditemukan.</center></h2></font>';
 		}else{
 	?>
-	<h3>FORM EDIT DATA PELANGGAN</h3>
+	<center><h3>FORM EDIT DATA PELANGGAN</h3>
 		<table>
 			<tr>
 				<td>No.ID</td>
 				<td>:</td>
-				<td><input type="number" name="id_user" value="<?php echo $row['id_user']; ?>" size="50"/></td>
+				<td><input type="number" name="id_user" disabled value="<?php echo $row['id_user']; ?>" size="50"/></td>
 			</tr>
 			<tr>
-				<td colspan=3 align="center"><input type="submit" name="submit"/></td>
+			<tr>
+				<td>NAMA ANGGOTA</td>
+				<td> : </td>
+				<td><input type="text" name="nama" value="<?php echo $row['nama']; ?>" size="50"/></td>
 			</tr>
-		</table>	
+			<tr>
+				<td>LEVEL ANGGOTA</td>
+				<td> : </td>
+				<td><input type="text" name="level" value="<?php echo $row['level']; ?>" size="50"/></td>
+			</tr>
+			<tr>
+				<td colspan=3 align="center"><input type="submit" name="submit"/>
+				<input type="button" value="cancel" onclick="window.location='data_anggota_acer.php'">
+				</td>
+			</tr>
+		</table>
+		</center>	
 	</form>
 	<?php
 		}

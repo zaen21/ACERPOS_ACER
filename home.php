@@ -93,17 +93,17 @@ body{
 								if ($_SESSION['level'] == "admin") {
 									echo '
 									<center><h1>Selamat Datang Admin!</h1><br/>
-										<p><img src="batas.gif" width="100%" class="img-rounded" height="100"></p>
+										<p><img src="DB/batas.gif" width="100%" class="img-rounded" height="100"></p>
 										<hr>
 									<div class="row">
           									<div class="span5">
             								<h2>Data Angoota ACER</h2>
-             								<p><a href="data_anggota_acer.php"><img src="user.png" width="50%" class="img-rounded" height="50"></a></p>
+             								<p><a href="data_anggota_acer.php"><img src="DB/user.png" width="50%" class="img-rounded" height="50"></a></p>
             								
           								</div>
           									<div class="span5">
             								<h2>Data Suplier</h2>
-             								<p><a href="suplier_list.php"><img src="suplier.png" width="50%" class="img-rounded" height="50"></a></p>
+             								<p><a href="suplier_list.php"><img src="DB/suplier.png" width="50%" class="img-rounded" height="50"></a></p>
             								
           								</div>
           								</div>
@@ -112,12 +112,12 @@ body{
           							<div class="row">
           									<div class="span5">
             								<h2>Data Produk/Barang</h2>
-             								<p><a href="produk_list.php"><img src="jual.png" width="50%" class="img-rounded" height="50"></a></p>
+             								<p><a href="produk_list.php"><img src="DB/jual.png" width="50%" class="img-rounded" height="50"></a></p>
             								
             							</div>
             								<div class="span5">
             								<h2>Laporan Hasil</h2>
-             								<p><a href="laporan.php"><img src="laporan.png" width="50%" class="img-rounded" height="50"></a></p>
+             								<p><a href="laporan.php"><img src="DB/laporan.png" width="50%" class="img-rounded" height="50"></a></p>
             								
             								</div>
             							</div>
@@ -127,17 +127,17 @@ body{
 								}else if($_SESSION['level'] == "kasir") {
 									echo '
 										<center><h1>Selamat Datang Kasir!</h1><br/>
-										<p><img src="batas.gif" width="100%" class="img-rounded" height="100"></p>
+										<p><img src="DB/batas.gif" width="100%" class="img-rounded" height="100"></p>
 										<hr>
 										<div class="row">
           									<div class="span5">
             								<h2>Data Penjualan</h2>
-             								<p><a href="produk_kasir.php"><img src="dollar.png" width="50%" class="img-rounded" height="50"></a></p>
+             								<p><a href="produk_kasir.php"><img src="DB/dollar.png" width="50%" class="img-rounded" height="50"></a></p>
             								
           								</div>
           									<div class="span5">
             								<h2>Data Anggota ACER</h2>
-             								<p><a href="data_anggota_acer_kasir.php"><img src="user.png" width="50%" class="img-rounded" height="50"></a></p>
+             								<p><a href="data_anggota_acer_kasir.php"><img src="DB/user.png" width="50%" class="img-rounded" height="50"></a></p>
             								
           								</div>
           								</div>
@@ -145,7 +145,7 @@ body{
           								<div class="row">
           									<div class="span5">
             								<h2>Laporan Penjualan</h2>
-             								<p><a href="laporan.php"><img src="laporan.png" width="50%" class="img-rounded" height="50"></a></p>
+             								<p><a href="laporan.php"><img src="DB/laporan.png" width="50%" class="img-rounded" height="50"></a></p>
             								
           								</div>
           								</div>

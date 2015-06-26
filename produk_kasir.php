@@ -115,7 +115,7 @@ body{
 			<td><?php echo $stok ?></td>
 			<td><?php echo $harga ?></td>
 			<?php	
-				echo "<td><a href='produk_kasir_beli.php?kode_brg=$row[kode_brg]'><img src='buy.png' width='30px'/></a></td>";
+				echo "<td><a href='produk_kasir_beli.php?kode_brg=$row[kode_brg]'><img src='DB/buy.png' width='30px'/></a></td>";
 				?>
 			</tr>
 		<?php
